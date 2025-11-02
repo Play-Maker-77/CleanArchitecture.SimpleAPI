@@ -75,13 +75,10 @@ Update-Database -StartupProject Presentation
 ```
 
 🚀 Running the API
-
 From Visual Studio:
-
-Set Presentation as the Startup Project
-
-Run the solution → Swagger UI should open automatically
-at: https://localhost:5001/swagger
+- Set Presentation as the Startup Project
+- Run the solution → Swagger UI should open automatically
+- at: https://localhost:5001/swagger
 
 🧩 API Endpoints
 HTTPMethod	   Endpoint	          Description
@@ -90,23 +87,16 @@ GET	           /api/users	        Get all users
 GET	           /api/users/{id}	  Get user by ID
 DELETE	       /api/users/{id}	  Delete a user
 
+
 🧠 Architecture Summary
-
-Domain → Core business entities (no dependencies)
-
-Application → Use cases, DTOs, business rules
-
-Infrastructure → Data access, repositories, EF Core
-
-Presentation → API layer, dependency injection, controllers
+- Domain → Core business entities (no dependencies)
+- Application → Use cases, DTOs, business rules
+- Infrastructure → Data access, repositories, EF Core
+- Presentation → API layer, dependency injection, controllers
 
 
 🛠️ Development Notes
-
-Uses Dependency Injection across all layers
-
-Repository pattern implemented in Infrastructure
-
-Uses EF Core for ORM
-
-API follows RESTful principles
+- Uses Dependency Injection across all layers
+- Repository pattern implemented in Infrastructure
+- Uses EF Core for ORM
+- API follows RESTful principles
