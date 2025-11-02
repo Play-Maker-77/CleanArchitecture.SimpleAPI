@@ -5,7 +5,7 @@ A modular **Clean Architecture** project built with **.NET 8**, **Entity Framewo
 ---
 
 ## 📁 Project Structure
-
+```
 CleanArchitecture.SimpleAPI/
 │
 ├── Domain/ # Entities and Repository Interfaces
@@ -15,7 +15,7 @@ CleanArchitecture.SimpleAPI/
 │
 ├── CleanArchitecture.SimpleAPI.sln
 └── README.md
-
+```
 
 ---
 
